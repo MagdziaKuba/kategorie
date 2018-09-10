@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.container{
+	width:800px;
+	display:block;
+	margin:0 auto;
+	overflow: hidden;
+}
+.category{
+	width:20%;
+	cursor: pointer;
+	text-align: center;
+}
+.category:hover{
+	background-color: red;
+}
+#all{}
+#cats{}
+#dogs{}
+#snakes{}
+.img{
+	width: 800px;
+	display: block;
+	margin:0 auto;
+}
+.o{
+	float:left;
+	padding: 2px;
+	width: 100px;
+	height: 100px;
+}
+.hide{
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+ol>li>ul{
+	display: none;
+}
+ol>li:hover>ul{
+	display: block;
+}
+ul{
+	list-style-type: none;
+}
+ul li{
+	text-decoration: none;
+}
